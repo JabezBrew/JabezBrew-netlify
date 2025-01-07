@@ -1,0 +1,27 @@
+baseurl = "https://jabezbrew.me/"
+title = "JabezBrew"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "projects/"
+  url = "projects/"
+  
+  [[params.navlinks]]
+  name = "photos/"
+  url = "photos/"
