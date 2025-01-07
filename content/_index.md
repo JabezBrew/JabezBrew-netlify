@@ -1,6 +1,7 @@
 +++
 date = '2025-01-03T18:39:09Z'
 title = 'Home'
+draft = false
 +++
 ---
 

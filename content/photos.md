@@ -1,6 +1,7 @@
 +++
 date = '2025-01-05T00:17:12Z'
 title = 'Photos'
+draft = false
 +++
 
 $ ls ./gallery-showcase
