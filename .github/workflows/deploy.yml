@@ -1,28 +1,31 @@
-name: Build & Deploy Hugo
+name: Hugo Build and Deploy
 
 on:
   push:
     branches:
-      - main  # or master or any default branch
+      - main  # or your default branch
+  workflow_dispatch:
 
 jobs:
-  build-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out
-        uses: actions/checkout@v2
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          submodules: true  # important to fetch the 'console' theme submodule
 
-      - name: Setup Hugo
+      - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
 
       - name: Build
-        run: hugo --minify  # or just 'hugo'
+        run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
