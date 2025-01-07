@@ -21,7 +21,7 @@ $ls ./image_metadata.txt
 > Photographer: [+233 Pixels](https://www.instagram.com/plus_233_pixels/)
 
 $echo "View the event through pictures..."
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
+<div class = "image-grid">
 
 <img src="grad1.jpg" alt="Picture 1" style="width: 100%;">
 <img src="grad2.jpg" alt="Picture 2" style="width: 100%;">
