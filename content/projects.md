@@ -1,6 +1,5 @@
 +++
 date = '2025-01-03T18:23:55Z'
-draft = true
 title = 'Projects'
 +++
 
