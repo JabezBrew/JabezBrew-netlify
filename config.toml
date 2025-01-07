@@ -1,4 +1,4 @@
-baseurl = "https://jabezbrew.github.io/JabezBrew/"
+baseurl = "https://jabezbrew.netlify.app/"
 title = "JabezBrew"
 theme = "hugo-theme-console"
 languageCode = "en-us"
