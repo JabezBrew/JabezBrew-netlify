@@ -21,6 +21,8 @@ $ls ./image_metadata.txt
 > Photographer: [+233 Pixels](https://www.instagram.com/plus_233_pixels/)
 
 $echo "View the event through pictures..."
+
+>oh before that, a quick heads up 😂: i promise i was happier than my face suggests 😅.
 <div class = "image-grid">
 
 <img src="grad1.jpg" alt="Picture 1" style="width: 100%;">
