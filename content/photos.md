@@ -23,14 +23,14 @@ $ls ./image_metadata.txt
 $echo "View the event through pictures..."
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
 
-<img src="{{ "photos/grad1.jpg" | absURL }}" alt="Picture 1" style="width: 100%;">
-<img src="{{ "photos/grad2.jpg" | absURL }}" alt="Picture 2" style="width: 100%;">
-<img src="{{ "photos/grad3.jpg" | absURL }}" alt="Picture 3" style="width: 100%;">
-<img src="{{ "photos/grad4.jpg" | absURL }}" alt="Picture 4" style="width: 100%;">
-<img src="{{ "photos/grad5.jpg" | absURL }}" alt="Picture 5" style="width: 100%;">
-<img src="{{ "photos/grad6.jpg" | absURL }}" alt="Picture 6" style="width: 100%;">
-<img src="{{ "photos/grad7.jpg" | absURL }}" alt="Picture 7" style="width: 100%;">
-<img src="{{ "photos/grad8.jpg" | absURL }}" alt="Picture 8" style="width: 100%;">
-<img src="{{ "photos/grad9.jpg" | absURL }}" alt="Picture 9" style="width: 100%;">
+{{< figure src="photos/grad1.jpg" alt="Picture 1" caption="Picture 1" >}}
+{{< figure src="photos/grad2.jpg" alt="Picture 2" caption="Picture 2" >}}
+{{< figure src="photos/grad3.jpg" alt="Picture 3" caption="Picture 3" >}}
+{{< figure src="photos/grad4.jpg" alt="Picture 4" caption="Picture 4" >}}
+{{< figure src="photos/grad5.jpg" alt="Picture 5" caption="Picture 5" >}}
+{{< figure src="photos/grad6.jpg" alt="Picture 6" caption="Picture 6" >}}
+{{< figure src="photos/grad7.jpg" alt="Picture 7" caption="Picture 7" >}}
+{{< figure src="photos/grad8.jpg" alt="Picture 8" caption="Picture 8" >}}
+{{< figure src="photos/grad9.jpg" alt="Picture 9" caption="Picture 9" >}}
 
 </div>
